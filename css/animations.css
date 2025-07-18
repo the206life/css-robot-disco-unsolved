@@ -1,0 +1,73 @@
+@keyframes left-eye {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.7);
+    }
+    
+}
+@keyframes eye-move {
+    0%{
+        top: 25px;
+        left: 300px;
+    }
+    25%{
+        top: 25px;
+        left: 350px;
+    }
+    50%{
+        top: 75px;
+        left: 350px;
+    }
+
+    75%{
+        top: 75px;
+        left: 300px;
+    }
+
+    100%{
+        top: 25px;
+        left: 300px;
+    }
+    
+}
+
+@keyframes right-ear-rotate {
+    from{
+        transform: rotate(360deg);
+    }
+
+
+}
+@keyframes left-ear-disappear{
+    from{
+        opacity: 0;
+    }
+}
+
+@keyframes nose-color-change{
+    0%{
+        background-color: blue;
+    }
+    25%{
+        background-color: green;
+    
+    }
+    50%{
+        background-color: blue;
+
+    }
+    75%{
+        background-color: green;
+
+    }
+    100%{
+        background-color: blue;
+    }
+}
+.robot-hair-style:hover{
+    transform: rotate(30deg);
+    transition-delay: 1s;
+    transition-duration: 3s;
+}
